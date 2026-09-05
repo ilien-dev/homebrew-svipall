@@ -8,22 +8,22 @@ class Svipall < Formula
   on_macos do
     on_arm do
       url "https://github.com/ilien-dev/svipall/releases/download/v1.0.0-rc/svipall-1.0.0-rc-aarch64-apple-darwin.tar.gz"
-      sha256 "7cdb99ff1f6be18964111a344cca1ce89ccb9b943d0a4c7013865746057b8b43"
+      sha256 "6a09f67b4c8758b9203ebcfc34d188e2fc4d0d20f6b124d2ba9ae6537796b506"
     end
     on_intel do
       url "https://github.com/ilien-dev/svipall/releases/download/v1.0.0-rc/svipall-1.0.0-rc-x86_64-apple-darwin.tar.gz"
-      sha256 "76b388d38bda43b60d5b51173468da0785112353dcdb321a10904bedb5761fdb"
+      sha256 "a84e151f08ffb71fc8b3574457a7b0d984509a01bbe10d44ee09830b4e2c45aa"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/ilien-dev/svipall/releases/download/v1.0.0-rc/svipall-1.0.0-rc-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "86e1edae82bb75e31a6a6d6f83b68a003c52eda7904bdca7fcdf1e88847e8b88"
+      sha256 "e47f53fa7716d64e8964c9043748f05a9d97bb784475c824da69f17146f35dea"
     end
     on_intel do
       url "https://github.com/ilien-dev/svipall/releases/download/v1.0.0-rc/svipall-1.0.0-rc-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "618bdae1385e1ce452fc20ad7fbdaac96f07a8ab8dc998427f96f20a44e5d1ae"
+      sha256 "2ebe652f7b1267ab8e4c293ed0d4ded59addef5b30af2fccccb38fdc053f615e"
     end
   end
 
