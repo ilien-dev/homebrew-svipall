@@ -2,28 +2,28 @@
 class Svipall < Formula
   desc "Local-first web scraping and captcha MCP server for AI agents"
   homepage "https://github.com/ilien-dev/svipall"
-  version "1.0.0-rc.3"
+  version "1.0.0"
   license "AGPL-3.0-only"
 
   on_macos do
     on_arm do
-      url "https://github.com/ilien-dev/svipall/releases/download/v1.0.0-rc.3/svipall-1.0.0-rc.3-aarch64-apple-darwin.tar.gz"
-      sha256 "fbe38c6cb454403be6f93ca20739d76130727c0297a286f67abcf2a758bd7a0e"
+      url "https://github.com/ilien-dev/svipall/releases/download/v1.0.0/svipall-1.0.0-aarch64-apple-darwin.tar.gz"
+      sha256 "ec3559b84f17b8e69898482c59e26e90353ff601569438eaff9d16bea0a7e538"
     end
     on_intel do
-      url "https://github.com/ilien-dev/svipall/releases/download/v1.0.0-rc.3/svipall-1.0.0-rc.3-x86_64-apple-darwin.tar.gz"
-      sha256 "1623da15c9e39f974e5b2910ed9f59a396d8c3cef3ad4078a6e0cd6ffeb7171f"
+      url "https://github.com/ilien-dev/svipall/releases/download/v1.0.0/svipall-1.0.0-x86_64-apple-darwin.tar.gz"
+      sha256 "b8e7e280f66482741ea5195005147db58c99be7da3a879e53fe5af585afb1ac4"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ilien-dev/svipall/releases/download/v1.0.0-rc.3/svipall-1.0.0-rc.3-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "70a98b21801726f5c6b3ed7c668ea41c1f5e7e5df7dd5ec1761a3a802fc2a010"
+      url "https://github.com/ilien-dev/svipall/releases/download/v1.0.0/svipall-1.0.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "7b5393058330bd3afd1ee69720c0396690a19cd08469e89d53143456fc803cc8"
     end
     on_intel do
-      url "https://github.com/ilien-dev/svipall/releases/download/v1.0.0-rc.3/svipall-1.0.0-rc.3-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "3aee177d3b2f8a6edcbb063a3d26cfe7e3fb0b59aa34fc5c0a2b5d2e7fa7182d"
+      url "https://github.com/ilien-dev/svipall/releases/download/v1.0.0/svipall-1.0.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "b8b848f147dfe9f2d5e4d5b5ab9d80bc65feaaf547785ac5e9c43cc38bb7472b"
     end
   end
 
