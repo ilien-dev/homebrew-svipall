@@ -2,28 +2,28 @@
 class Svipall < Formula
   desc "Local-first web scraping and captcha MCP server for AI agents"
   homepage "https://github.com/ilien-dev/svipall"
-  version "1.0.0-rc"
+  version "1.0.0-rc.3"
   license "AGPL-3.0-only"
 
   on_macos do
     on_arm do
-      url "https://github.com/ilien-dev/svipall/releases/download/v1.0.0-rc/svipall-1.0.0-rc-aarch64-apple-darwin.tar.gz"
-      sha256 "6a09f67b4c8758b9203ebcfc34d188e2fc4d0d20f6b124d2ba9ae6537796b506"
+      url "https://github.com/ilien-dev/svipall/releases/download/v1.0.0-rc.3/svipall-1.0.0-rc.3-aarch64-apple-darwin.tar.gz"
+      sha256 "fbe38c6cb454403be6f93ca20739d76130727c0297a286f67abcf2a758bd7a0e"
     end
     on_intel do
-      url "https://github.com/ilien-dev/svipall/releases/download/v1.0.0-rc/svipall-1.0.0-rc-x86_64-apple-darwin.tar.gz"
-      sha256 "a84e151f08ffb71fc8b3574457a7b0d984509a01bbe10d44ee09830b4e2c45aa"
+      url "https://github.com/ilien-dev/svipall/releases/download/v1.0.0-rc.3/svipall-1.0.0-rc.3-x86_64-apple-darwin.tar.gz"
+      sha256 "1623da15c9e39f974e5b2910ed9f59a396d8c3cef3ad4078a6e0cd6ffeb7171f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ilien-dev/svipall/releases/download/v1.0.0-rc/svipall-1.0.0-rc-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "e47f53fa7716d64e8964c9043748f05a9d97bb784475c824da69f17146f35dea"
+      url "https://github.com/ilien-dev/svipall/releases/download/v1.0.0-rc.3/svipall-1.0.0-rc.3-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "70a98b21801726f5c6b3ed7c668ea41c1f5e7e5df7dd5ec1761a3a802fc2a010"
     end
     on_intel do
-      url "https://github.com/ilien-dev/svipall/releases/download/v1.0.0-rc/svipall-1.0.0-rc-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "2ebe652f7b1267ab8e4c293ed0d4ded59addef5b30af2fccccb38fdc053f615e"
+      url "https://github.com/ilien-dev/svipall/releases/download/v1.0.0-rc.3/svipall-1.0.0-rc.3-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "3aee177d3b2f8a6edcbb063a3d26cfe7e3fb0b59aa34fc5c0a2b5d2e7fa7182d"
     end
   end
 
