@@ -2,13 +2,13 @@
 class Svipall < Formula
   desc "Local-first web scraping and captcha MCP server for AI agents"
   homepage "https://github.com/ilien-dev/svipall"
-  version "1.0.4"
+  version "1.0.5"
   license "AGPL-3.0-only"
 
   on_macos do
     on_arm do
-      url "https://github.com/ilien-dev/svipall/releases/download/v1.0.4/svipall-1.0.4-aarch64-apple-darwin.tar.gz"
-      sha256 "b8401fc23c52bfda15fb17618aa96fd5613ead8ae2ce19295a5ace2327e2308c"
+      url "https://github.com/ilien-dev/svipall/releases/download/v1.0.5/svipall-1.0.5-aarch64-apple-darwin.tar.gz"
+      sha256 "f60df8f65f05ab5bb91260f1dabc84f4de1ff8747f5aaea3bac07755e33feb96"
     end
     # No `on_intel`: Intel macOS has no build, and a formula that names a URL the release does not
     # publish fails at download time with nothing useful to read. `brew install` declines here
@@ -17,12 +17,12 @@ class Svipall < Formula
 
   on_linux do
     on_arm do
-      url "https://github.com/ilien-dev/svipall/releases/download/v1.0.4/svipall-1.0.4-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "ee51cfe3130a0cb950fd5e335302f2fbae820cf6ccc15687049cc191d4997531"
+      url "https://github.com/ilien-dev/svipall/releases/download/v1.0.5/svipall-1.0.5-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "0ec738a3b0bab12057bf6c8ce6817b04b656076facbdfedc882867d17674bc0f"
     end
     on_intel do
-      url "https://github.com/ilien-dev/svipall/releases/download/v1.0.4/svipall-1.0.4-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "0f274861f2232c6f41df43dd2bd7e31fde194e5540ed2a5a6283e06fc23a7f1c"
+      url "https://github.com/ilien-dev/svipall/releases/download/v1.0.5/svipall-1.0.5-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "82c6f00502b095f5b6f60edb553d3ed53003e99b7c79470b95f8f3ec0205bd32"
     end
   end
 
