@@ -8,7 +8,7 @@ class Svipall < Formula
   on_macos do
     on_arm do
       url "https://github.com/ilien-dev/svipall/releases/download/v1.0.6/svipall-1.0.6-aarch64-apple-darwin.tar.gz"
-      sha256 "04e9a6bc0ed964019c7cf282063876af1233dd8577210acb5b926a4e50c7c075"
+      sha256 "b284f49e6453b2c45b15758d6d1241a3cb70376527d6c78470979ff7e12b2459"
     end
     # No `on_intel`: Intel macOS has no build, and a formula that names a URL the release does not
     # publish fails at download time with nothing useful to read. `brew install` declines here
@@ -18,11 +18,11 @@ class Svipall < Formula
   on_linux do
     on_arm do
       url "https://github.com/ilien-dev/svipall/releases/download/v1.0.6/svipall-1.0.6-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "19c4bc81803d6f8edd4ea4c5847d832ab538b1492964247346af00463c500764"
+      sha256 "0c3956fd6a1aca4d53d09ea0555a85c490cd6447ab62a3c22120bc6d9c53a2c7"
     end
     on_intel do
       url "https://github.com/ilien-dev/svipall/releases/download/v1.0.6/svipall-1.0.6-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "eeb2b9a97541f39fffa96bf178b2a7d605a3cb5eb647c3b6bd023e97521cc7c3"
+      sha256 "c3339d898177c6afe58b07ddbaa698a5d5a28daf5d5bdbb1f831db9d776b4b6d"
     end
   end
 
